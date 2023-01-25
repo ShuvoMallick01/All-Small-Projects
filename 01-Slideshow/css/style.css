@@ -9,8 +9,12 @@
   margin: auto;
 }
 
-.mySlides {
-  /* display: none; */
+/* .mySlides {
+  display: none;
+} */
+
+.slideshow-container > mySlides:nth-child() {
+  display: none;
 }
 
 /* Next and Previous Button */
